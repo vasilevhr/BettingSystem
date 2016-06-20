@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{FCABA8C4-3131-42D5-AB93-2CDF21D0AAA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BettingSystem.Api", "Server\BettingSystem.Api\BettingSystem.Api.csproj", "{BF53CDC3-9B6E-4679-AD75-B906BF77A843}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{55E3DA7C-6F01-460A-9941-83FA81004DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BettingSystem.Models", "Data\BettingSystem.Models\BettingSystem.Models.csproj", "{0BECBFE3-3D0E-43DC-9589-EE5BC668422A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BettingSystem.Data", "Data\BettingSystem.Data\BettingSystem.Data.csproj", "{92634F60-4139-4DCF-90EA-1D0274BA5C6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XMLParser", "XMLParser", "{799C25B9-DF16-41CC-A79C-17FE206C22B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parser", "XMLParser\Parser\Parser.csproj", "{7BF4F108-2772-405A-80ED-3F7A01877EF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF53CDC3-9B6E-4679-AD75-B906BF77A843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF53CDC3-9B6E-4679-AD75-B906BF77A843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF53CDC3-9B6E-4679-AD75-B906BF77A843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF53CDC3-9B6E-4679-AD75-B906BF77A843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BECBFE3-3D0E-43DC-9589-EE5BC668422A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BECBFE3-3D0E-43DC-9589-EE5BC668422A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BECBFE3-3D0E-43DC-9589-EE5BC668422A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BECBFE3-3D0E-43DC-9589-EE5BC668422A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92634F60-4139-4DCF-90EA-1D0274BA5C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92634F60-4139-4DCF-90EA-1D0274BA5C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92634F60-4139-4DCF-90EA-1D0274BA5C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92634F60-4139-4DCF-90EA-1D0274BA5C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF4F108-2772-405A-80ED-3F7A01877EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF4F108-2772-405A-80ED-3F7A01877EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF4F108-2772-405A-80ED-3F7A01877EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF4F108-2772-405A-80ED-3F7A01877EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF53CDC3-9B6E-4679-AD75-B906BF77A843} = {FCABA8C4-3131-42D5-AB93-2CDF21D0AAA8}
+		{0BECBFE3-3D0E-43DC-9589-EE5BC668422A} = {55E3DA7C-6F01-460A-9941-83FA81004DCE}
+		{92634F60-4139-4DCF-90EA-1D0274BA5C6F} = {55E3DA7C-6F01-460A-9941-83FA81004DCE}
+		{7BF4F108-2772-405A-80ED-3F7A01877EF5} = {799C25B9-DF16-41CC-A79C-17FE206C22B1}
+	EndGlobalSection
+EndGlobal

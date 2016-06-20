@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Matches";
+}
+
+<style>
+    table, tr, td, th {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+    }
+</style>
+
+<h2>Matches</h2>
+<body data-ng-app="app">
+    <div id="tblMatches" ng-controller="APIController">
+        <table>
+            <tr class="active">
+                <th>ID</th>
+                <th>Name</th>
+                <th>Start Date</th>
+                <th>Bets</th>
+            </tr>
+            <tbody data-ng-repeat="match in matches">
+                <tr>
+                    <td>{{match.Id}}</td>
+                    <td>{{match.Name}}</td>
+                    <td>{{match.StartDate}}</td>
+                    <td>{{match.Bets}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    @*<div id="tblBets" ng-controller="BetController">
+        <table>
+            <tr class="active">
+                <th>Name</th>
+            </tr>
+            <tbody data-ng-repeat="bet in bets">
+                <tr>
+                    <td>{{bet.Name}}</td>
+                    <td>{{bet.Odds}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>*@
+</body>  
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/APIScripts/module.js"></script>
+<script src="~/Scripts/APIScripts/service.js"></script>
+<script src="~/Scripts/APIScripts/controller.js"></script>
+<script src="~/Scripts/APIScripts/BetController.js"></script>
+
+
